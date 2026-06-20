@@ -33,8 +33,18 @@
 
   <!-- Hero -->
   <section class="hero">
-    <div class="hero__media">
-      <img src="assets/img/hero-valley.jpg" alt="The Hudson Valley at dusk">
+    <div class="hero__media hero__media--video">
+      <img class="hero__poster" src="assets/img/hero-poster.jpg" alt="The Hudson Valley at dusk" fetchpriority="high">
+      <div class="hero__video" aria-hidden="true">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/1_Fbu9hpAV4?autoplay=1&mute=1&loop=1&playlist=1_Fbu9hpAV4&controls=0&modestbranding=1&showinfo=0&rel=0&playsinline=1&iv_load_policy=3&disablekb=1"
+          title="Flybrook"
+          loading="lazy"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowfullscreen
+          tabindex="-1"
+          frameborder="0"></iframe>
+      </div>
     </div>
     <div class="hero__inner wrap">
       <p class="kicker">Inspired&nbsp;·&nbsp;Seasonal&nbsp;·&nbsp;Organic&nbsp;·&nbsp;Local&nbsp;·&nbsp;Fresh</p>
